@@ -3,9 +3,9 @@
 /*
 Plugin Name: Surbma - UIkit 2 - Default
 Plugin URI: http://surbma.com/wordpress-plugins/
-Description: UIkit 2 - A lightweight and modular front-end framework.
+Description: Some useful UIkit 2 styles for your site.
 
-Version: 1.0.0
+Version: 1.0.1
 
 Author: Surbma
 Author URI: http://surbma.com/

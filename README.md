@@ -1,4 +1,4 @@
 Surbma - UIkit 2 - Default
 ==============================
 
-UIkit 2 - A lightweight and modular front-end framework.
+Some useful UIkit 2 styles for your site.
