@@ -1,0 +1,33 @@
+# Copyright (C) 2014 Surbma - UIkit 2 - Default
+# This file is distributed under the same license as the Surbma - UIkit 2 - Default package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Surbma - UIkit 2 - Default 1.0.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/surbma-uikit-2-default\n"
+"POT-Creation-Date: 2014-12-02 09:20:52+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#. Plugin Name of the plugin/theme
+msgid "Surbma - UIkit 2 - Default"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://surbma.com/wordpress-plugins/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Some useful UIkit 2 styles for your site."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Surbma"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://surbma.com/"
+msgstr ""

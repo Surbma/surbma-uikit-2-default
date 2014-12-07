@@ -4,7 +4,7 @@ Donate link: http://surbma.com/
 Tags: uikit, buttons, font awesome, icon, tab, accordion
 Requires at least: 3.1
 Tested up to: 4.0
-Stable tag: 1.0.1
+Stable tag: 1.3.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,6 +17,7 @@ This plugin does only one thing: it enques some css and js files for you to use 
 UIkit theme: Default
 
 UIkit Components included with this plugin:
+
 - Button
 - Dropdown
 - Icon (Font Awesome)
@@ -55,6 +56,14 @@ Nope. This is only a selection of the most used styles from UIkit.
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 1.3.0 =
+
+- Added Text component
+- Added pot file for localization.
+- Fixed $allowedposttags missing global attributes.
+- Added $allowedtags to enable icons in post titles and menu names.
+- Synced version number with the other 2 UIkit plugins.
 
 = 1.0.1 =
 

@@ -5,7 +5,7 @@ Plugin Name: Surbma - UIkit 2 - Default
 Plugin URI: http://surbma.com/wordpress-plugins/
 Description: Some useful UIkit 2 styles for your site.
 
-Version: 1.0.1
+Version: 1.3.0
 
 Author: Surbma
 Author URI: http://surbma.com/
@@ -58,4 +58,9 @@ $allowedposttags['div'] = array(
 	'xml:lang' => array(),
 	'data-uk-switcher' => array()
 );
+$allowedposttags = array_map( '_wp_add_global_attributes', $allowedposttags );
 
+global $allowedtags;
+$allowedtags['i'] = array(
+	'class' => array()
+);
