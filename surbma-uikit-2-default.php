@@ -5,7 +5,7 @@ Plugin Name: Surbma - UIkit 2 - Default
 Plugin URI: http://surbma.com/wordpress-plugins/
 Description: Some useful UIkit 2 styles for your site.
 
-Version: 1.3.1
+Version: 1.4.0
 
 Author: Surbma
 Author URI: http://surbma.com/
@@ -17,19 +17,17 @@ Domain Path: /languages/
 */
 
 // Prevent direct access to the plugin
-if ( !defined( 'ABSPATH' ) ) {
-	die( 'Good try! :)' );
-}
+if ( !defined( 'ABSPATH' ) ) exit( 'Good try! :)' );
 
 // Localization
 function surbma_uikit_2_default_init() {
-	load_plugin_textdomain( 'surbma-uikit-2-almost-flat', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+	load_plugin_textdomain( 'surbma-uikit-2-default', false, plugin_basename( dirname( __FILE__ ) ) . '/languages' );
 }
 add_action( 'plugins_loaded', 'surbma_uikit_2_default_init' );
 
 function surbma_uikit_2_default_enqueue_scripts() {
-	wp_enqueue_script( 'uikit-scripts', plugins_url( '', __FILE__ ) . '/js/uikit-min.js', array( 'jquery' ), '2.12.0', true );
-	wp_enqueue_style( 'uikit-styles', plugins_url( '', __FILE__ ) . '/css/uikit.css', false, '2.12.0' );
+	wp_enqueue_script( 'uikit-scripts', plugins_url( '', __FILE__ ) . '/js/uikit-min.js', array( 'jquery' ), '2.24.3', true );
+	wp_enqueue_style( 'uikit-styles', plugins_url( '', __FILE__ ) . '/css/uikit.css', false, '2.24.3' );
 }
 add_action( 'wp_enqueue_scripts', 'surbma_uikit_2_default_enqueue_scripts' );
 
